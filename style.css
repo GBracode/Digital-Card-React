@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding-top: 2em;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color: #23252C;
+    color: #FFFFFF;
+}
+
+img {
+    margin: 0;
+    width: 317px;
+    height: 317px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    width: 317px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #1A1B21;
+}
+
+/* INFO SECTION */
+
+.info--card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Inter, sans-serif;
+}
+
+.info--title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 21px;
+    margin-bottom: 6px;
+    line-height: 30px;
+    text-align: center;    
+}
+
+.info--subtitle {
+    font-size: 13px;
+    color: #F3BF99;
+    margin-top: 0;
+    margin-bottom: 9px;  
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+ 
+}
+
+.info--website {
+    font-size: 11px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 15px; 
+}
+
+.btn--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 33px;
+}
+
+.info--btn {
+    color: white;
+    width: 115px;
+    height: 34px;
+    top: 468px;
+    left: 283px;
+    padding: 9px 13px 9px 11px;
+    border-radius: 6px;
+    text-decoration: none;  
+}
+
+.btn--email {
+    background-color: #FFFFFF;
+    color: #374151;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.btn--linkedin {
+    background-color: #5093E2;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* MAIN SECTION */
+
+.main--container {
+    padding-right: 36px;
+    padding-left: 36px;
+}
+
+.main--title {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.main--text {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #DCDCDC;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;    
+    text-align: left;
+}
+
+/* FOOTER SECTION */
+
+.footer--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: #161619;
+    width: 317px;
+    height: 64px;
+    top: 760px;
+    left: 116px;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.icon--svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.footer--icons {
+    width: 25px;
+    height: 25px;
+    color: #918E9B;
+}
