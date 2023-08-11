@@ -10,16 +10,16 @@ export default function Footer() {
     return (
         <footer>
             <div className="footer--container">
-                <a className="" href="https://twitter.com/noMatt_GB">
+                <a href="https://twitter.com/noMatt_GB" target="_blank">
                             <FontAwesomeIcon className="footer--icons" icon= { faXTwitter } />
                 </a>
-                <a className="" href="https://www.facebook.com/Mattniac">
+                <a href="https://www.facebook.com/Mattniac">
                             <FontAwesomeIcon className="footer--icons" icon= { faFacebook } />
                 </a>
-                <a className="" href="https://www.instagram.com/mattg_braconi/">
+                <a href="https://www.instagram.com/mattg_braconi/">
                             <FontAwesomeIcon className="footer--icons" icon= { faInstagram } />
                 </a>
-                <a className="" href="https://github.com/GBracode">
+                <a href="https://github.com/GBracode">
                             <FontAwesomeIcon className="footer--icons" icon= { faGithub } />
                 </a>
             </div>
