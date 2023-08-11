@@ -14,11 +14,11 @@ export default function Info() {
             <h3 className="info--subtitle">Frontend Developer</h3>
             <a className="info--website" href="#">noMattGB.website</a>
                 <div className="btn--container">
-                    <a className="info--btn btn--email" href="matiasgbraconi@gmail.com">
+                    <a className="info--btn btn--email" href="matiasgbraconi@gmail.com" target="_blank">
                         <FontAwesomeIcon className="icon--svg" icon= { faEnvelope } />
                         Email
                     </a>
-                    <a className="info--btn btn--linkedin" href="https://www.linkedin.com/in/mat%C3%ADas-gonzalez-braconi-697356109/">
+                    <a className="info--btn btn--linkedin" href="https://www.linkedin.com/in/mat%C3%ADas-gonzalez-braconi-697356109/" target="_blank">
                         <FontAwesomeIcon className="icon--svg" icon= { faLinkedin } />  
                         LinkedIn
                         </a>
