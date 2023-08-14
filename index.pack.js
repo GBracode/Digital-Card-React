@@ -18942,17 +18942,17 @@ function Footer() {
             ),
             _react2.default.createElement(
                 "a",
-                { href: "https://www.facebook.com/Mattniac" },
+                { href: "https://www.facebook.com/Mattniac", target: "_blank" },
                 _react2.default.createElement(_reactFontawesome.FontAwesomeIcon, { className: "footer--icons", icon: _freeBrandsSvgIcons.faFacebook })
             ),
             _react2.default.createElement(
                 "a",
-                { href: "https://www.instagram.com/mattg_braconi/" },
+                { href: "https://www.instagram.com/mattg_braconi/", target: "_blank" },
                 _react2.default.createElement(_reactFontawesome.FontAwesomeIcon, { className: "footer--icons", icon: _freeBrandsSvgIcons.faInstagram })
             ),
             _react2.default.createElement(
                 "a",
-                { href: "https://github.com/GBracode" },
+                { href: "https://github.com/GBracode", target: "_blank" },
                 _react2.default.createElement(_reactFontawesome.FontAwesomeIcon, { className: "footer--icons", icon: _freeBrandsSvgIcons.faGithub })
             )
         )
@@ -19008,13 +19008,13 @@ function Info() {
             { className: "btn--container" },
             _react2.default.createElement(
                 "a",
-                { className: "info--btn btn--email", href: "matiasgbraconi@gmail.com" },
+                { className: "info--btn btn--email", href: "mailto:matiasgbraconi@gmail.com", target: "_blank" },
                 _react2.default.createElement(_reactFontawesome.FontAwesomeIcon, { className: "icon--svg", icon: _freeSolidSvgIcons.faEnvelope }),
                 "Email"
             ),
             _react2.default.createElement(
                 "a",
-                { className: "info--btn btn--linkedin", href: "https://www.linkedin.com/in/mat%C3%ADas-gonzalez-braconi-697356109/" },
+                { className: "info--btn btn--linkedin", href: "https://www.linkedin.com/in/mat%C3%ADas-gonzalez-braconi-697356109/", target: "_blank" },
                 _react2.default.createElement(_reactFontawesome.FontAwesomeIcon, { className: "icon--svg", icon: _freeBrandsSvgIcons.faLinkedin }),
                 "LinkedIn"
             )
